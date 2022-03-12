@@ -1,6 +1,6 @@
 if game.PlaceId == 4042427666 then
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-    local Window = Library.CreateLib("System Zeus", "Sentinel")
+    local Window = Library.CreateLib("System Zeus", "Ocean")
 
     -- Op Autofarm
     local Tab = Window:NewTab("AutoFarm")
