@@ -16,7 +16,7 @@ if game.PlaceId == 4042427666 then
     end)
     AutoFarmSection:NewButton("Fludex", "Woutt fludex hub", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Woutt/FludexHub/main/login.lua"))()
-    end
+    end)
     -- YENS
     local Tab = Window:NewTab("Yen Scripts")
     local YenSection = Tab:NewSection("Yen")
