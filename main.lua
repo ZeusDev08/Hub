@@ -1,6 +1,6 @@
 if game.PlaceId == 4042427666 then
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-    local Window = Library.CreateLib("System Zeus", "Ocean")
+    local Window = Library.CreateLib("System Zeus", "Sentinel")
 
     -- Op Autofarm
     local Tab = Window:NewTab("AutoFarm")
@@ -14,6 +14,9 @@ if game.PlaceId == 4042427666 then
     AutoFarmSection:NewButton("Chakra Script", "Increases the velocity of the chakra ticks", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ZeusDev08/Hub/main/script%20chakra.lua"))()
     end)
+    AutoFarmSection:NewButton("Fludex", "Woutt fludex hub", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Woutt/FludexHub/main/login.lua"))()
+    end
     -- YENS
     local Tab = Window:NewTab("Yen Scripts")
     local YenSection = Tab:NewSection("Yen")
@@ -39,9 +42,7 @@ if game.PlaceId == 4042427666 then
     end)
     local Tab = Window:NewTab("Credits")
     Section:NewLabel("Credits")
-    Section:NewTextBox("Credits to Zeus", "https://discord.gg/WbsBhunyVT discord invite credits to Zeus obsfucated script with key system", function(txt)
-        print(txt)
-    end)
+    
     
 end
  
